@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../images/mobile/abt-me-bg.jpg");
+    background-size: cover;
+}
+.my-atropos {
+    overflow: hidden;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+img {
+    position: absolute;
+}
+
+.sun {
+    width: 100vw;
+    height: 100vh;
+}
+.trees {
+    align-self: center;
+    width: 100vw;
+    height: 100vh;
+    height: auto;
+    bottom: 0;
+    left: 0;
+}
+
+.fondo {
+    width: 100vw;
+    height: 100vh;
+}
+.atropos-highlight {
+    background-color: black;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 300ms;
+    opacity: 0;
+}
+
+.Links-container {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 4rem;
+    justify-content: center;
+    background-color: rgba(31, 31, 31, 0.278);
+}
+.Links-container div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navlink {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: white;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+}
+.navlink:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+img {
+    opacity: 0;
+}

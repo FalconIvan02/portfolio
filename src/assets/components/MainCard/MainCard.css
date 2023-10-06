@@ -1,0 +1,20 @@
+.Abtme-Card {
+    height: 40%;
+    width: 60%;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Abtme-Card h1 {
+    color: #250b3a;
+}
+.Abtme-Card h2 {
+    color: #992e40;
+}
+.Abtme-Card p {
+    color: #ffffff;
+}
