@@ -1,20 +1,43 @@
 .Abtme-Card {
-    height: 40%;
-    width: 60%;
+    margin-top: 5rem;
+    height: 30%;
+    width: 80%;
     padding: 2rem;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
-    box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(7.6px);
-    -webkit-backdrop-filter: blur(7.6px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+}
+.MyAtropos {
+    display: block;
+    width: 100%;
 }
 .Abtme-Card h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     color: #250b3a;
+    font-size: 20px;
+    line-height: 18.2px; /* 130% */
+    letter-spacing: -0.14px;
 }
 .Abtme-Card h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     color: #992e40;
+    font-size: 14px;
+    line-height: 18.2px; /* 130% */
+    letter-spacing: -0.14px;
 }
 .Abtme-Card p {
-    color: #ffffff;
+    color: #000000;
+    text-shadow: 2px 2px 8px;
+    font-size: 12px;
+    line-height: 18px;
+    width: 15rem;
+}
+
+.atropos-highlight {
+    background-color: black;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 300ms;
+    opacity: 0;
 }

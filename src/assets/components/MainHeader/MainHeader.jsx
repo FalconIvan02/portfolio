@@ -1,25 +1,30 @@
-import { NavLink } from "react-router-dom";
 import "./MainHeader.css";
 function MainHeader() {
     return (
-        <>
-            <header className="Links-container">
-                <div>
-                    <NavLink to="#abt-me" className="navlink">
+        <header className="Links-container">
+            <ul>
+                <li>
+                    <a className="navlink" href="#abtme">
                         Sobre mí
-                    </NavLink>
-                    <NavLink to="#projects" className="navlink">
+                    </a>
+                </li>
+                <li>
+                    <a className="navlink" href="#projects">
                         Proyectos
-                    </NavLink>
-                    <NavLink to="#certifications" className="navlink">
+                    </a>
+                </li>
+                <li>
+                    <a className="navlink" href="#certifications">
                         Certificaciones
-                    </NavLink>
-                    <NavLink to="#contact" className="navlink">
+                    </a>
+                </li>
+                <li>
+                    <a className="navlink" href="#contact">
                         Contacto
-                    </NavLink>
-                </div>
-            </header>
-        </>
+                    </a>
+                </li>
+            </ul>
+        </header>
     );
 }
 

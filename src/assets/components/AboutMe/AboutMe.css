@@ -1,0 +1,9 @@
+.container {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../images/mobile/abt-me-bg.jpg");
+    background-size: cover;
+}
