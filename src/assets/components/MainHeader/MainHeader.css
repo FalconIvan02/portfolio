@@ -3,25 +3,22 @@
     padding: 0;
     box-sizing: 0;
 }
-.Links-container {
-    z-index: 2;
-    position: fixed;
-    width: 100vw;
-    height: 3rem;
-    background-color: rgba(31, 31, 31, 0.278);
-}
 .Links-container ul {
-    width: 100%;
-    height: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 2rem;
+    right: 0.5rem;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
     list-style: none;
 }
 .navlink {
+    display: flex;
     padding: 8px;
     border-radius: 8px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.212);
     text-decoration: none;
     color: inherit;
     border: none;
@@ -31,6 +28,49 @@
     color: white;
     cursor: pointer;
 }
-img {
+/* Mensaje de iconos */
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    justify-content: center;
+}
+.wrapper .icon {
+    position: relative;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .tooltip /* Caja con el mensaje */ {
+    position: absolute;
+    top: 0;
+    font-size: 8px;
+    background: #ffffff;
+    color: #000000;
+    padding: 4px 6px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     opacity: 0;
+    pointer-events: none;
+}
+.tooltip::before /* Este es la flechita que apunta al icono */ {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: 4px;
+    right: -7px;
+    transform: translate(-50%) rotate(45deg);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: 5px;
+    right: 45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
