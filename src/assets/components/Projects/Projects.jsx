@@ -1,11 +1,12 @@
 import "./projects.css";
+import Carousel from "./Carousel.jsx";
 
 function Projects() {
     return (
         <>
             <div className="Projects" id="projects">
                 <div className="Projects-card">
-                    <img src="./src/assets/images/mobile/food.png" alt="Its food mobile" />
+                    <Carousel />
                 </div>
             </div>
         </>

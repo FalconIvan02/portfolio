@@ -24,8 +24,8 @@
     border: none;
 }
 .navlink:hover {
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.312);
+    color: rgba(255, 255, 255, 0.704);
     cursor: pointer;
 }
 /* Mensaje de iconos */
