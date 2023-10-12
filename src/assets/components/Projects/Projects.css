@@ -10,11 +10,12 @@
 }
 .Projects-card {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     background-color: rgba(128, 128, 128, 0.013);
     width: 100%;
-    height: 12rem;
+    gap: 2rem;
     margin: 0 auto;
 }
 .Projects-card img {

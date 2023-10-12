@@ -2,8 +2,46 @@
     background-color: gray;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-image: url("../../images/mobile/moon-night.png");
     background-size: cover;
+}
+.Contact-hook {
+    margin: 8rem 0rem;
+    text-align: center;
+}
+.Contact-hook h2 {
+    color: #992266;
+    font-size: 20px;
+    line-height: 19.2px; /* 96% */
+    letter-spacing: -0.1px;
+}
+
+.Contact-hook h3 {
+    color: white;
+}
+.Contact-icons {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.Contact-icons .Linkedin:hover {
+    filter: invert(39%) sepia(100%) saturate(5613%) hue-rotate(183deg) brightness(91%) contrast(89%)
+        drop-shadow(4px 4px 10px rgb(255, 255, 255));
+
+    scale: 1.1;
+}
+.Contact-icons .Github:hover {
+    filter: invert(18%) sepia(49%) saturate(7482%) hue-rotate(340deg) brightness(88%) contrast(96%)
+        drop-shadow(4px 4px 10px #dc143c);
+
+    scale: 1.1;
+}
+.Contact-icons .Mail:hover {
+    filter: invert(24%) sepia(16%) saturate(6428%) hue-rotate(294deg) brightness(92%) contrast(101%)
+        drop-shadow(4px 4px 10px rgb(255, 255, 255));
+
+    scale: 1.1;
 }
