@@ -55,4 +55,22 @@
     .Contact {
         background-image: url("../../images/Desktop/Star-forest.jpg");
     }
+    .Contact-icons .Linkedin {
+        scale: 1.3;
+    }
+    .Contact-icons .Mail {
+        scale: 1.3;
+    }
+    .Contact-icons .Github {
+        scale: 1.3;
+    }
+    .Contact-icons .Linkedin:hover {
+        scale: 1.8;
+    }
+    .Contact-icons .Mail:hover {
+        scale: 1.8;
+    }
+    .Contact-icons .Github:hover {
+        scale: 1.8;
+    }
 }

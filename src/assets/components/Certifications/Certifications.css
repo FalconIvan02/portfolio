@@ -26,7 +26,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 
@@ -41,7 +41,7 @@
     background: none;
     border: none;
     cursor: pointer;
-    transform: translateY(4rem);
+    transform: translateY(200%);
 }
 
 #Left-button-carousel {
@@ -54,5 +54,24 @@
 @media (min-width: 550px) {
     .Certifications {
         background-image: url("../../images/Desktop/Forest-night.jpg");
+    }
+
+    .Certifications-card {
+        width: 75vw;
+        height: 35vh;
+        position: relative;
+    }
+    #Left-button-carousel {
+        left: 3.5rem;
+        background-color: rgba(240, 248, 255, 0.471);
+    }
+
+    #Right-button-carousel {
+        right: 3.5rem;
+
+        background-color: rgba(240, 248, 255, 0.471);
+    }
+    .carousel-buttons {
+        transform: translateY(300%);
     }
 }
