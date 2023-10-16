@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
 
-    background-image: url("../../images/mobile/Sunset-mountain-mobile.jpg");
+    background-image: url("../../images/mobile/Sunset-mountain-mobile-hd.jpg");
     background-size: cover;
 }
 .Projects-card {
@@ -20,4 +20,10 @@
 }
 .Projects-card img {
     width: 70%;
+}
+
+@media (min-width: 550px) {
+    .Projects {
+        background-image: url("../../images/Desktop/Sunset-mountain-desktop.jpg");
+    }
 }

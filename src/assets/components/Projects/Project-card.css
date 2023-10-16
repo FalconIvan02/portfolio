@@ -5,7 +5,10 @@
 }
 
 .cards .red {
-    background-color: #f43f5e;
+    background-image: url("./src/assets/images/mobile/food.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120%;
 }
 
 .cards .blue {
@@ -30,7 +33,13 @@
     transition: 400ms transform, 400ms box-shadow, 400ms background-color;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
+.cards .card a {
+    text-decoration: none;
+    color: inherit;
+}
+.cards .card a:hover {
+    background-color: #ffffffbc;
+}
 .cards .card p.tip {
     font-size: 1em;
     font-weight: 700;
@@ -51,4 +60,10 @@
     filter: blur(2px);
     transform: scale(0.9);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 820px) {
+    .cards {
+        flex-direction: row;
+    }
 }

@@ -1,6 +1,4 @@
 import "./MainCard.css";
-import background from "../../images/Lake.jpg";
-
 import Atropos from "atropos/react";
 
 function MainCard() {
