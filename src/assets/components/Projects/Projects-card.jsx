@@ -2,14 +2,18 @@ import "./Project-card.css";
 
 function ProjectCard() {
     return (
-        <div class="card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <p>Front Side</p>
-                </div>
-                <div class="card-back">
-                    <p>Back Side</p>
-                </div>
+        <div className="cards">
+            <div className="card red">
+                <p className="tip">Hover Me</p>
+                <p className="second-text">Lorem Ipsum</p>
+            </div>
+            <div className="card blue">
+                <p className="tip">Hover Me</p>
+                <p className="second-text">Lorem Ipsum</p>
+            </div>
+            <div className="card green">
+                <p className="tip">Hover Me</p>
+                <p className="second-text">Lorem Ipsum</p>
             </div>
         </div>
     );

@@ -8,9 +8,6 @@ function Projects() {
             <div className="Projects" id="projects">
                 <div className="Projects-card">
                     <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
                 </div>
             </div>
         </>
