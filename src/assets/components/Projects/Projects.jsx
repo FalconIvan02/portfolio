@@ -1,5 +1,4 @@
 import "./projects.css";
-import Carousel from "./Carousel.jsx";
 import ProjectCard from "./Projects-card";
 
 function Projects() {
