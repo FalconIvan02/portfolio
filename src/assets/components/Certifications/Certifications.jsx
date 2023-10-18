@@ -2,8 +2,6 @@ import "./Certifications.css";
 import React from "react";
 function Certifications() {
     function Move(offset) {
-        console.log("Ya no se me ocurren mensajes graciosos, jaja'nt");
-
         const slides = document.querySelector("[data-carousel]").querySelector("[data-slides]");
 
         const activeSlide = slides.querySelector("[data-active]");
