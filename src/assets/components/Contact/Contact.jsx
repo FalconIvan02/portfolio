@@ -56,7 +56,7 @@ function Contact() {
                         </a>
                     </Atropos>
 
-                    <Atropos>
+                    <Atropos className="icon-container">
                         <a href="mailto:falconivanernesto@gmail.com?Subject=Interesado/a%20en%20trabajar%20con%20usted">
                             <svg
                                 data-atropos-offset="10"

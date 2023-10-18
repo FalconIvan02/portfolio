@@ -11,6 +11,7 @@
 .Abtme-Card:hover {
     scale: 1.1;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.546);
+    border: 0.5px solid rgb(164, 164, 164);
 }
 .MyAtropos {
     display: block;
