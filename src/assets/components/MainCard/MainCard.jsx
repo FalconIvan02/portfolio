@@ -5,8 +5,7 @@ function MainCard() {
     function Rotar(x, y) {
         let ex1Layer = document.getElementById("ex1-layer");
         window.requestAnimationFrame(function () {
-            // Apply rotation to the element
-            ex1Layer.style.transition = "transform 0.1s"; // Add a transition for smoothness
+            ex1Layer.style.transition = "transform 0.1s";
             ex1Layer.style.transform = `rotateX(${-y}deg) rotateY(${x}deg)`;
         });
     }

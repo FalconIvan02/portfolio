@@ -12,7 +12,11 @@
 }
 
 .cards .blue {
-    background-color: #3b82f6;
+    background-image: url("./src/assets/images/Desktop/todo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 110%;
 }
 
 .cards .green {
