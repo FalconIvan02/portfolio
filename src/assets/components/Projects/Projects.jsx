@@ -1,4 +1,4 @@
-import "./projects.css";
+import "./Projects.css";
 import ProjectCard from "./Projects-card";
 
 function Projects() {
