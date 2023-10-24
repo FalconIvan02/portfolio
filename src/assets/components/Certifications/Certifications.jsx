@@ -56,7 +56,7 @@ function Certifications() {
                             <a href="https://www.efset.org/cert/qUfxms" target="_blank">
                                 <img
                                     src="./src/assets/images/certifications/EF-set-Certificate.png"
-                                    alt="Imagen random"
+                                    alt="Certificacion EF set"
                                 />
                             </a>
                         </li>
