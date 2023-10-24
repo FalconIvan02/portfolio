@@ -5,14 +5,14 @@
 }
 
 .cards .red {
-    background-image: url("../public/food.png");
+    background-image: url("/food.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120%;
 }
 
 .cards .blue {
-    background-image: url("../public/todo.png");
+    background-image: url("/todo.png");
     background-repeat: no-repeat;
     background-position: center;
 

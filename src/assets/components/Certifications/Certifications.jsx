@@ -40,24 +40,15 @@ function Certifications() {
 
                     <ul className="Certifications-card" data-slides id="data-slides">
                         <li className="card-item" data-active>
-                            <img
-                                src="./src/assets/images/certifications/Ivan_Falcon_HTML_CSS.png"
-                                alt="Certificacion HTML y CSS"
-                            />
+                            <img src="/certifications/Ivan_Falcon_HTML_CSS.png" alt="Certificacion HTML y CSS" />
                         </li>
                         <li className="card-item">
-                            <img
-                                src="./src/assets/images/certifications/Ivan_Falcon_JS_Cilsa.png"
-                                alt="Certificacion JavaScript"
-                            />
+                            <img src="/certifications/Ivan_Falcon_JS_Cilsa.png" alt="Certificacion JavaScript" />
                         </li>
 
                         <li className="card-item">
                             <a href="https://www.efset.org/cert/qUfxms" target="_blank">
-                                <img
-                                    src="./src/assets/images/certifications/EF-set-Certificate.png"
-                                    alt="Certificacion EF set"
-                                />
+                                <img src="/certifications/EF-set-Certificate.png" alt="Certificacion EF set" />
                             </a>
                         </li>
                     </ul>
