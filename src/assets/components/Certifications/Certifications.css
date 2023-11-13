@@ -50,10 +50,12 @@
 }
 #Left-button-carousel {
     left: 2.5rem;
+    background-color: rgba(179, 178, 178, 0.286);
 }
 
 #Right-button-carousel {
     right: 2.5rem;
+    background-color: rgba(179, 178, 178, 0.286);
 }
 @media (min-width: 550px) {
     .Certifications {

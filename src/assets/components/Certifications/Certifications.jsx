@@ -12,6 +12,9 @@ function Certifications() {
         slides.children[newIndex].dataset.active = true;
         delete activeSlide.dataset.active;
     }
+    setInterval(function () {
+        Move(1);
+    }, 7000);
     return (
         <>
             <div className="Certifications" id="certifications">
