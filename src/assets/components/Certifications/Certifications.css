@@ -8,8 +8,8 @@
     background-size: cover;
 }
 .Certifications-card {
-    width: 250px;
-    height: 25vh;
+    width: 70vw;
+    height: 20vh;
     position: relative;
 }
 
@@ -43,18 +43,18 @@
     background: none;
     border: none;
     cursor: pointer;
-    transform: translateY(400%);
+    transform: translateY(500%);
 }
 .card-item a {
     object-position: center;
 }
 #Left-button-carousel {
-    left: 2.5rem;
+    left: 2.6rem;
     background-color: rgba(179, 178, 178, 0.286);
 }
 
 #Right-button-carousel {
-    right: 2.5rem;
+    right: 2.6rem;
     background-color: rgba(179, 178, 178, 0.286);
 }
 @media (min-width: 550px) {
@@ -63,8 +63,8 @@
     }
 
     .Certifications-card {
-        width: 400px;
-        height: 40vh;
+        width: 60vw;
+        height: 20vh;
         position: relative;
         padding: 1rem;
     }
@@ -84,7 +84,6 @@
 }
 @media (min-width: 1080px) {
     .Certifications-card {
-        scale: 0.7;
         width: 600px;
         height: 400px;
         position: relative;
