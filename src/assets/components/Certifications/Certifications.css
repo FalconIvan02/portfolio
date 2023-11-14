@@ -43,7 +43,7 @@
     background: none;
     border: none;
     cursor: pointer;
-    transform: translateY(400%);
+    transform: translateY(370%);
 }
 .card-item a {
     object-position: center;
