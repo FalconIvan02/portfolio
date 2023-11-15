@@ -56,12 +56,6 @@
     border-radius: 12px;
     scale: 1.4;
 }
-#Left-button-carousel:hover {
-    opacity: 50%;
-}
-#Right-button-carousel:hover {
-    opacity: 50%;
-}
 #Right-button-carousel {
     right: 4.5rem;
     background-color: rgba(179, 178, 178, 0.664);
@@ -94,6 +88,13 @@
     }
     .carousel-buttons {
         transform: translateY(500%);
+    }
+
+    #Left-button-carousel:hover {
+        opacity: 50%;
+    }
+    #Right-button-carousel:hover {
+        opacity: 50%;
     }
 }
 @media (min-width: 1080px) {
