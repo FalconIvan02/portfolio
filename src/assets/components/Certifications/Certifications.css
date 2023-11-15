@@ -43,13 +43,13 @@
     background: none;
     border: none;
     cursor: pointer;
-    transform: translateY(370%);
+    transform: translateY(200%);
 }
 .card-item a {
     object-position: center;
 }
 #Left-button-carousel {
-    left: 4.2rem;
+    left: 6rem;
     background-color: rgba(179, 178, 178, 0.286);
 
     border-radius: 12px;
@@ -62,10 +62,13 @@
     opacity: 50%;
 }
 #Right-button-carousel {
-    right: 4.2rem;
+    right: 6rem;
     background-color: rgba(179, 178, 178, 0.286);
     border-radius: 12px;
     scale: 1.2;
+}
+#Right-button-carousel svg {
+    border-radius: 12px;
 }
 @media (min-width: 550px) {
     .Certifications {
