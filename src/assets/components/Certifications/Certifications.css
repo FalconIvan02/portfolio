@@ -9,7 +9,7 @@
 }
 .Certifications-card {
     width: 70vw;
-    height: 20vh;
+    height: 30vh;
     position: relative;
 }
 
@@ -43,13 +43,13 @@
     background: none;
     border: none;
     cursor: pointer;
-    transform: translateY(200%);
+    transform: translateY(300%);
 }
 .card-item a {
     object-position: center;
 }
 #Left-button-carousel {
-    left: 5rem;
+    left: 4.5rem;
     background-color: rgba(179, 178, 178, 0.286);
 
     border-radius: 12px;
@@ -62,7 +62,7 @@
     opacity: 50%;
 }
 #Right-button-carousel {
-    right: 5rem;
+    right: 4.5rem;
     background-color: rgba(179, 178, 178, 0.286);
     border-radius: 12px;
     scale: 1.2;
