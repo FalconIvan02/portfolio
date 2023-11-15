@@ -49,13 +49,23 @@
     object-position: center;
 }
 #Left-button-carousel {
-    left: 2.6rem;
+    left: 4.2rem;
     background-color: rgba(179, 178, 178, 0.286);
-}
 
+    border-radius: 12px;
+    scale: 1.2;
+}
+#Left-button-carousel:hover {
+    opacity: 50%;
+}
+#Right-button-carousel:hover {
+    opacity: 50%;
+}
 #Right-button-carousel {
-    right: 2.6rem;
+    right: 4.2rem;
     background-color: rgba(179, 178, 178, 0.286);
+    border-radius: 12px;
+    scale: 1.2;
 }
 @media (min-width: 550px) {
     .Certifications {
