@@ -1,20 +1,19 @@
-import "./Certifications.css";
-import React from "react";
+import './Certifications.css'
 function Certifications() {
     function Move(offset) {
-        const slides = document.querySelector("[data-carousel]").querySelector("[data-slides]");
+        const slides = document.querySelector('[data-carousel]').querySelector('[data-slides]')
 
-        const activeSlide = slides.querySelector("[data-active]");
-        let newIndex = [...slides.children].indexOf(activeSlide) + offset;
-        if (newIndex < 0) newIndex = slides.children.length - 1;
-        if (newIndex >= slides.children.length) newIndex = 0;
+        const activeSlide = slides.querySelector('[data-active]')
+        let newIndex = [...slides.children].indexOf(activeSlide) + offset
+        if (newIndex < 0) newIndex = slides.children.length - 1
+        if (newIndex >= slides.children.length) newIndex = 0
 
-        slides.children[newIndex].dataset.active = true;
-        delete activeSlide.dataset.active;
+        slides.children[newIndex].dataset.active = true
+        delete activeSlide.dataset.active
     }
     setInterval(function () {
-        Move(1);
-    }, 7000);
+        Move(1)
+    }, 8000)
     return (
         <>
             <div className="Certifications" id="certifications">
@@ -48,9 +47,17 @@ function Certifications() {
                         <li className="card-item">
                             <img src="/certifications/Ivan_Falcon_JS_Cilsa.png" alt="Certificacion JavaScript" />
                         </li>
-
                         <li className="card-item">
-                            <a href="https://www.efset.org/cert/qUfxms" target="_blank">
+                            <img src="/certifications/Ivan_Falcon_Python.png" alt="Certificacion Empujar+UTN" />
+                        </li>
+                        <li className="card-item">
+                            <img src="/certifications/Empujar+UTN.PNG" alt="Certificacion Python" />
+                        </li>
+                        <li className="card-item">
+                            <img src="/certifications/Mejor-asistencia.PNG" alt="Mejor asistencia" />
+                        </li>
+                        <li className="card-item">
+                            <a href="https://www.efset.org/cert/qUfxms" target="_blank" rel="noreferrer">
                                 <img src="/certifications/EF-set-Certificate.png" alt="Certificacion EF set" />
                             </a>
                         </li>
@@ -58,6 +65,6 @@ function Certifications() {
                 </div>
             </div>
         </>
-    );
+    )
 }
-export default Certifications;
+export default Certifications
